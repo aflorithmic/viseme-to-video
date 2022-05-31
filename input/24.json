@@ -1,0 +1,176 @@
+{
+    "metadata": {
+        "sampling_rate": 24000
+    },
+    "phonemes": [
+        {
+            "duration": 12.5,
+            "viseme": "",
+            "offset": 0,
+            "phoneme": "<sos/eos>"
+        },
+        {
+            "duration": 37.5,
+            "viseme": "T",
+            "offset": 12.5,
+            "phoneme": "DH"
+        },
+        {
+            "duration": 75.0,
+            "viseme": "@",
+            "offset": 50.0,
+            "phoneme": "AH0"
+        },
+        {
+            "duration": 100.0,
+            "viseme": "p",
+            "offset": 125.0,
+            "phoneme": "B"
+        },
+        {
+            "duration": 62.5,
+            "viseme": "i",
+            "offset": 225.0,
+            "phoneme": "Y"
+        },
+        {
+            "duration": 100.0,
+            "viseme": "u",
+            "offset": 287.5,
+            "phoneme": "UW1"
+        },
+        {
+            "duration": 87.5,
+            "viseme": "t",
+            "offset": 387.5,
+            "phoneme": "T"
+        },
+        {
+            "duration": 87.5,
+            "viseme": "i",
+            "offset": 475.0,
+            "phoneme": "IY0"
+        },
+        {
+            "duration": 125.0,
+            "viseme": "@",
+            "offset": 562.5,
+            "phoneme": "AH1"
+        },
+        {
+            "duration": 75.0,
+            "viseme": "f",
+            "offset": 687.5,
+            "phoneme": "V"
+        },
+        {
+            "duration": 37.5,
+            "viseme": "T",
+            "offset": 762.5,
+            "phoneme": "DH"
+        },
+        {
+            "duration": 62.5,
+            "viseme": "@",
+            "offset": 800.0,
+            "phoneme": "AH0"
+        },
+        {
+            "duration": 87.5,
+            "viseme": "f",
+            "offset": 862.5,
+            "phoneme": "V"
+        },
+        {
+            "duration": 62.5,
+            "viseme": "i",
+            "offset": 950.0,
+            "phoneme": "Y"
+        },
+        {
+            "duration": 100.0,
+            "viseme": "u",
+            "offset": 1012.5,
+            "phoneme": "UW1"
+        },
+        {
+            "duration": 100.0,
+            "viseme": "s",
+            "offset": 1112.5,
+            "phoneme": "S"
+        },
+        {
+            "duration": 100.0,
+            "viseme": "t",
+            "offset": 1212.5,
+            "phoneme": "T"
+        },
+        {
+            "duration": 100.0,
+            "viseme": "@",
+            "offset": 1312.5,
+            "phoneme": "AH1"
+        },
+        {
+            "duration": 75.0,
+            "viseme": "t",
+            "offset": 1412.5,
+            "phoneme": "N"
+        },
+        {
+            "duration": 37.5,
+            "viseme": "t",
+            "offset": 1487.5,
+            "phoneme": "D"
+        },
+        {
+            "duration": 50.0,
+            "viseme": "T",
+            "offset": 1525.0,
+            "phoneme": "DH"
+        },
+        {
+            "duration": 50.0,
+            "viseme": "@",
+            "offset": 1575.0,
+            "phoneme": "AH0"
+        },
+        {
+            "duration": 100.0,
+            "viseme": "i",
+            "offset": 1625.0,
+            "phoneme": "Y"
+        },
+        {
+            "duration": 112.5,
+            "viseme": "@",
+            "offset": 1725.0,
+            "phoneme": "AH1"
+        },
+        {
+            "duration": 75.0,
+            "viseme": "k",
+            "offset": 1837.5,
+            "phoneme": "NG"
+        },
+        {
+            "duration": 125.0,
+            "viseme": "p",
+            "offset": 1912.5,
+            "phoneme": "B"
+        },
+        {
+            "duration": 100.0,
+            "viseme": "O",
+            "offset": 2037.5,
+            "phoneme": "OY1"
+        },
+        {
+            "duration": 187.5,
+            "viseme": "",
+            "offset": 2137.5,
+            "phoneme": "."
+        }
+    ],
+    "audio_url": null
+}
