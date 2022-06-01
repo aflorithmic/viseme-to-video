@@ -62,5 +62,8 @@ A different mapping file can be specified on the command line using the flag `--
 ###  **audio/** <br />
 **24.wav** -  An audio sample generated from FastSpeech2 ([using kan-bayashi's ESPnet framework](https://github.com/espnet/espnet)). This sample uses a [Harvard sentence](https://harvardsentences.com/) as text input (list 3, sentence 5: 'The beauty of the view stunned the young boy'). <br />
 
-
-Video can be generated without adding audio, by adding the argument `--add_audio False` on the command line. <br /><br />
+Audio can be toggled on/off with the argument `--add_audio`, e.g.:
+  
+  
+ `python viseme_to_video.py --no_audio`
+  <br /><br />
