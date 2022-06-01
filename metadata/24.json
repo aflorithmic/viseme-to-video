@@ -160,10 +160,16 @@
             "phoneme": "B"
         },
         {
-            "duration": 100.0,
+            "duration": 50.0,
             "viseme": "O",
             "offset": 2037.5,
             "phoneme": "OY1"
+        },
+        {
+            "duration": 50.0,
+            "viseme": "i",
+            "offset": 2087.5,
+            "phoneme": "IY0"
         },
         {
             "duration": 187.5,
