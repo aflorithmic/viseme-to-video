@@ -2,7 +2,7 @@
 
 
 
-[![<aflorithmic>](https://circleci.com/gh/aflorithmic/viseme-to-video.svg?style=svg)](https://app.circleci.com/pipelines/github/aflorithmic/viseme-to-video?branch=main&filter=all) ![contributions-welcome](https://img.shields.io/badge/contributions-welcome-ff69b4)
+[![<aflorithmic>](https://circleci.com/gh/aflorithmic/viseme-to-video.svg?style=svg)](https://app.circleci.com/pipelines/github/aflorithmic/viseme-to-video?branch=main&filter=all) ![contributions-welcome](https://img.shields.io/badge/contributions-welcome-ff69b4) ![GitHub](https://img.shields.io/github/license/aflorithmic/viseme-to-video)
 
 <br />
 
