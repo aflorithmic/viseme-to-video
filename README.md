@@ -15,23 +15,21 @@ https://user-images.githubusercontent.com/60350867/171470468-2c0801b5-ea2e-46e7-
 <br /><br />
 
 
+## Running viseme-to-video
+  
 
+To use this module, first install dependencies using by running the command: <br />
+
+`pip install -r requirements.txt` <br />
+
+  
+The tool can be run directly from the command line using the command: <br />
+
+`python viseme_to_video.py` <br /><br /> <br />
+  
 ## Repo contents
 
 This repo contains the following resources:  <br />
-
-### **viseme_to_video.py**
-
-The main module. 
-
-To use this module, first install dependencies using by running the command:
-
-`pip install -r requirements.txt`
-
-
-The tool can be run directly from the command line using the command:
-
-`python viseme_to_video.py` <br /><br />
 
 
 ### **image/** <br />
