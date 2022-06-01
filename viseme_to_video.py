@@ -9,14 +9,13 @@ import argparse
 
 class VideoMaker:
 
-    def __init__(self, im_dir, input_dir, out_dir, fps, map_file):
+    def __init__(self, im_dir, metadata_dir, audio_dir, out_dir, fps, map_file):
         self.mapping = self.load_json(map_file)
         self.fourcc = cv2.VideoWriter_fourcc(*'mp4v') 
         self.height, self.width = self.get_im_dims(im_dir)
-        # print('self.height=', self.height)
-        # print('self.width=', self.width)
         self.im_dir = im_dir
-        self.input_dir = input_dir
+        self.metadata_dir = metadata_dir
+        self.audio_dir = audio_dir
         self.out_dir = out_dir
         self.fps = fps
 
@@ -41,8 +40,6 @@ class VideoMaker:
 
     def make_frame(self, viseme):
         frame = cv2.imread(os.path.join(self.im_dir, f"{viseme}.jpeg")) # allow other file types
-        print(viseme)
-        print(self.height, self.width)
         return cv2.resize(frame, (self.width, self.height))
 
     def frame_to_video(self, output, frame, dur):
@@ -50,7 +47,7 @@ class VideoMaker:
             output.write(frame) 
 
     def generate_video(self, in_file):
-        in_path = os.path.join(self.input_dir, in_file)
+        in_path = os.path.join(self.metadata_dir, in_file)
         self.out_path = (os.path.join(self.out_dir, f'{in_file.strip(".json")}_{self.fps}.mp4'))
         output = self.get_out(self.out_path)
         data = self.load_json(in_path)['phonemes']
@@ -83,22 +80,24 @@ class VideoMaker:
 
 
 def main():
-    parser = argparse.ArgumentParser(description='Specify input (viseme and wav), image and output directory, and viseme mapping file.')
+    parser = argparse.ArgumentParser(description='Specify metadata, audio, image and output directories, and viseme mapping file.')
     parser.add_argument("--im_dir",  type=str, default='image/mouth1', help='Directory with viseme images.')
-    # add separate viseme & wav directories 
-    parser.add_argument("--input_dir",  type=str, default='input', help='Directory containing viseme metadata .json files and .wav audio files.')
+    parser.add_argument("--metadata_dir",  type=str, default='metadata', help='Directory containing viseme metadata .json files.')
+    parser.add_argument("--audio_dir",  type=str, default='audio', help='Directory containing .wav audio files.')
     parser.add_argument("--out_dir", type=str, default='video', help='Directory to save generated video.')
     parser.add_argument("--fps", type=int, default=20, help='Frame rate (in frames per second) to generate video.')
     parser.add_argument("--map", type=str, default='map/viseme_map.json', help='Path to viseme mapping file.')
+    parser.add_argument("--add_audio", default='True', action='store_true', help='Do you want to add a corresponding audio file to your video?')
     args = parser.parse_args()
-    viseme_video_maker = VideoMaker(args.im_dir, args.input_dir, args.out_dir, args.fps, args.map)
+    viseme_video_maker = VideoMaker(args.im_dir, args.metadata_dir, args.audio_dir,  args.out_dir, args.fps, args.map)
 
-    for in_file in os.listdir(args.input_dir):
+    for in_file in os.listdir(args.metadata_dir):
         if '.json' not in in_file:
             continue
         else:
             viseme_video_maker.generate_video(in_file)
-            viseme_video_maker.add_audio(f'input/{in_file.strip(".json")}.wav', viseme_video_maker.out_path)
+            if args.add_audio is not None:
+                viseme_video_maker.add_audio(f'audio/{in_file.strip(".json")}.wav', viseme_video_maker.out_path)
 
 if __name__ == "__main__":
     main()
