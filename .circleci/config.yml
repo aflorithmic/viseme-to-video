@@ -1,0 +1,17 @@
+version: 2.1
+
+jobs:
+  build:
+    docker:
+      - image: "cimg/python:3.8.11"
+    steps:
+      - checkout
+      - pip install -r requirements.txt
+      - run: python3 viseme_to_video.py
+
+workflows:
+  build_and_test:
+    jobs:
+      - build
+      
+
