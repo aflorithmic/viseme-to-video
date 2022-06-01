@@ -87,7 +87,7 @@ def main():
     parser.add_argument("--out_dir", type=str, default='video', help='Directory to save generated video.')
     parser.add_argument("--fps", type=int, default=20, help='Frame rate (in frames per second) to generate video.')
     parser.add_argument("--map", type=str, default='map/viseme_map.json', help='Path to viseme mapping file.')
-    parser.add_argument("--add_audio", default='True', action='store_true', help='Do you want to add a corresponding audio file to your video?')
+    parser.add_argument("--no_audio", action='store_true', help='Generated video without audio.')
     args = parser.parse_args()
     viseme_video_maker = VideoMaker(args.im_dir, args.metadata_dir, args.audio_dir,  args.out_dir, args.fps, args.map)
 
@@ -96,8 +96,9 @@ def main():
             continue
         else:
             viseme_video_maker.generate_video(in_file)
-            if args.add_audio is not None:
+            if args.no_audio is not True:
                 viseme_video_maker.add_audio(f'audio/{in_file.strip(".json")}.wav', viseme_video_maker.out_path)
+                
 
 if __name__ == "__main__":
     main()
