@@ -1,6 +1,12 @@
 # viseme-to-video
 This Python module creates video from viseme images and TTS audio output. I created this for testing the sync accuracy between synthesised audio and duration predictions extracted from FastSpeech2 hidden states.
 
+
+
+https://user-images.githubusercontent.com/60350867/171470468-2c0801b5-ea2e-46e7-91d8-f3b9b2b6134f.mp4
+
+
+
 This repo contains the following resources:  <br />
 
 ### **viseme_to_video.py**
