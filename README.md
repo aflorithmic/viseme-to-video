@@ -14,7 +14,7 @@ This repo contains the following resources:  <br />
 
 The main module. This tool can be run directly from the command line using the command:
 
-`python viseme_to_video.py`
+`python viseme_to_video.py` <br /><br />
 
 
 ### **image/** <br />
