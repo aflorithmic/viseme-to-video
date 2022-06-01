@@ -6,7 +6,7 @@ jobs:
       - image: "cimg/python:3.8.11"
     steps:
       - checkout
-      - pip install -r requirements.txt
+      - run: pip install -r requirements.txt
       - run: python3 viseme_to_video.py
 
 workflows:
