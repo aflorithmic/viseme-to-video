@@ -9,6 +9,10 @@
 This Python module creates video from viseme images and TTS audio output. I created this for testing the sync accuracy between synthesised audio and duration predictions extracted from FastSpeech2 hidden states. <br />
 
 
+https://user-images.githubusercontent.com/60350867/172256756-e1cccbe2-107d-417a-97ee-1a921b37ea4b.mp4
+
+
+
 
 https://user-images.githubusercontent.com/60350867/172256677-4fa08c7a-f0e8-4eed-8c15-7c6b79d6b9cf.mp4
 
