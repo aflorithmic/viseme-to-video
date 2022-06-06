@@ -2,10 +2,6 @@
 
 
 
-https://user-images.githubusercontent.com/60350867/172257674-ae237bde-1d87-416b-a6c6-308235e43b71.mp4
-
-
-
 [![<aflorithmic>](https://circleci.com/gh/aflorithmic/viseme-to-video.svg?style=svg)](https://app.circleci.com/pipelines/github/aflorithmic/viseme-to-video?branch=main&filter=all) ![contributions-welcome](https://img.shields.io/badge/contributions-welcome-ff69b4) ![GitHub](https://img.shields.io/github/license/aflorithmic/viseme-to-video)
 
 <br />
@@ -14,9 +10,14 @@ This Python module creates video from viseme images and TTS audio output. I crea
 
 
 
+23            |  55 
+:-------------------------:|:-------------------------:
+https://user-images.githubusercontent.com/60350867/172258707-91ae14d6-d339-47a1-9120-4b3d6f8cb914.mp4 | https://user-images.githubusercontent.com/60350867/172258755-5f616ae3-f658-4626-807b-0e43b7949130.mp4 
+  
+83 | 92  
+:-------------------------:|:-------------------------:
+https://user-images.githubusercontent.com/60350867/172258847-e0f9534b-469c-4d04-83ad-4d663e2f9a38.mp4 |  https://user-images.githubusercontent.com/60350867/172258887-c2ebd30f-edcf-47c6-9668-e87e1e12ccfa.mp4
 
-
-https://user-images.githubusercontent.com/60350867/172256677-4fa08c7a-f0e8-4eed-8c15-7c6b79d6b9cf.mp4
 
 
 <br /><br />
