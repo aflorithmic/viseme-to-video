@@ -8,15 +8,9 @@
 
 This Python module creates video from viseme images and TTS audio output. I created this for testing the sync accuracy between synthesised audio and duration predictions extracted from FastSpeech2 hidden states. <br />
 
+https://user-images.githubusercontent.com/60350867/172258755-5f616ae3-f658-4626-807b-0e43b7949130.mp4 
 
 
-23            |  55 
-:-------------------------:|:-------------------------:
-https://user-images.githubusercontent.com/60350867/172258707-91ae14d6-d339-47a1-9120-4b3d6f8cb914.mp4 | https://user-images.githubusercontent.com/60350867/172258755-5f616ae3-f658-4626-807b-0e43b7949130.mp4 
-  
-83 | 92  
-:-------------------------:|:-------------------------:
-https://user-images.githubusercontent.com/60350867/172258847-e0f9534b-469c-4d04-83ad-4d663e2f9a38.mp4 |  https://user-images.githubusercontent.com/60350867/172258887-c2ebd30f-edcf-47c6-9668-e87e1e12ccfa.mp4
 
 
 
@@ -72,3 +66,14 @@ Audio can be toggled on/off with the argument `--no_audio`.
   
  
   <br /><br />
+  
+  
+Some more example videos created using Harvard sentences.
+  
+ Harvard 23            |  Harvard  55 
+:-------------------------:|:-------------------------:
+https://user-images.githubusercontent.com/60350867/172258707-91ae14d6-d339-47a1-9120-4b3d6f8cb914.mp4 | https://user-images.githubusercontent.com/60350867/172258755-5f616ae3-f658-4626-807b-0e43b7949130.mp4 
+  
+ Harvard 83 |  Harvard 92  
+:-------------------------:|:-------------------------:
+https://user-images.githubusercontent.com/60350867/172258847-e0f9534b-469c-4d04-83ad-4d663e2f9a38.mp4 |  https://user-images.githubusercontent.com/60350867/172258887-c2ebd30f-edcf-47c6-9668-e87e1e12ccfa.mp4
