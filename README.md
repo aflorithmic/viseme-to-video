@@ -10,7 +10,8 @@ This Python module creates video from viseme images and TTS audio output. I crea
 
 
 
-https://user-images.githubusercontent.com/60350867/171470468-2c0801b5-ea2e-46e7-91d8-f3b9b2b6134f.mp4 
+https://user-images.githubusercontent.com/60350867/172256677-4fa08c7a-f0e8-4eed-8c15-7c6b79d6b9cf.mp4
+
 
 <br /><br />
 
